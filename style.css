@@ -65,9 +65,33 @@ main{
 	display: flex;
 	flex-direction: column;
 	width:100%;
+	margin-top:10%;
 	background-color: 
 }
 .main_block{
 	background-color: #fff;
 	text-align: center;
+}
+header{
+	height: 100vh;
+}
+table{
+	margin: 0 auto;
+	width:60%;
+}
+table th{
+	padding-left:1%;
+	font-size:18px;
+	padding-top:3%;
+    padding-bottom:3%;
+    text-align: left;
+    background-color: #000;
+    color: white;
+}
+table tr{
+		font-size: 18px;
+		background-color:rgba(0,0,0,0.5);
+}
+table td{
+	padding-left:1%;
 }

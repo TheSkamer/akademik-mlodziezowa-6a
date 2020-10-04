@@ -78,12 +78,71 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 }
-window.onload = function (){
-document.body.addEventListener("load",function(){
-    window.pageYOffset = "0"; 
- });
+window.onload = function scroll(){
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; 
+
 }
 
+var rows,name,point;
+ var namefortable = new Array(
+ 					"Mikhailov Dmytro",
+  					"Krasun Vadym",
+	 				"Oleksandr Serhieiev",
+	 				"Artem Kozak",
+ 					"Olasiuk Anastasiia",
+ 					"Demchyk Nazar",
+ 					"Vietrova Viktoriia ",
+ 					"Nahaievska Marharyta",
+ 					"Kapsewych Illia ",
+ 					"Pasechnyk Dmitriy",
+ 					"Gabruk Maxym",
+ 					"Iuzefovych Vladyslav",
+ 					"Zhuk Sasza",
+ 					"Nazaruk Maksim",
+ 					"Horblianskyi Mykhailo",
+ 					"Fluider Maksym",
+ 					"Rudyk Ivanka",
+ 					"Horaichuk Daryna",
+ 					"Zahaniakha Daria",
+ 					"Nadia Tsupryk",
+ 					);
+
+/*name = new Array (document.getElementById("Name_Surename"));
+point = document.getElementById("point");
+*/
+/*  for(name in a && i = 0; i < namefortable.length; i++){
+    a.innerHTML = namefortable[i];
+}*/
+/*function sortTable() {
+  table = ;
+  switching = true;
+
+  while (switching) {
+
+    switching = false;
+    rows = table.rows;
+
+    for (i = 1; i < (rows.length - 1); i++) {
+
+      shouldSwitch = false;
+
+      x = rows[i].getElementsById("Name_Surename")[0];
+      y = rows[i + 1].getElementsById("point")[0];
+
+      if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+
+        shouldSwitch = true;
+        break;
+      }
+    }
+    if (shouldSwitch) {
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      switching = true;
+    }
+  }
+}
+*/
 /*if(addEventListener('ctrlKey')  && addEventListener('keydown' ,(m) || event.key == "A"){
 	document.getElementById("adnimin").style.display = "block";
 }*/
