@@ -1,19 +1,32 @@
-<? php?><!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-	<title>Młodzieżowa6A</title>
+	<title>Młodzieżowa6A Akademik</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-
-<div>
-
-	<h1>Dzisiaj deżurny jest</h1>
-	<p id="currentShift"></p>
+<div class="topnav" id="myTopnav">
+  <a href="" class="active">Główna</a>  
+  <a href="">Tablica liderów</a>
+  <a href="">Dyżunymi są</a>
+  <a href="">O nas</a>
+  <a href="">Język strony</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<main class="main_block">
+   <div>
+    <h1>Dzisiaj deżurny jest</h1>
+     <p id="currentShift"></p>
+</div> 
+</main>
 
 </div>
-  <div id="adnimin" style="display:none;">
+<!--   <div id="adnimin" style="display:none;">
   	<form name="forma">
   		
 
@@ -24,10 +37,10 @@
   </div>
   <div style="display:none;" id="ADMINPANEL" >
    <h1>Admin Panel</h1>
-  </div>
+  </div> -->
 
 
 	<script src="script.js" type="text/javascript"></script>
-	<script src="demo_jsonp.php"></script>
+	<script src="modal.php"></script>
 </body>
 </html>
