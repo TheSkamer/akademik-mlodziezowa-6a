@@ -61,11 +61,11 @@ body {
     text-align: left;
   }
 }
-main{
-	margin-top:10%; 
+main{ 
 	display: flex;
 	flex-direction: column;
 	width:100%;
+	background-color: 
 }
 .main_block{
 	background-color: #fff;
