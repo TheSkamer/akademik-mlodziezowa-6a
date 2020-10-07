@@ -47,19 +47,18 @@ window.addEventListener("keydown", function(event) {
 	}
 })
 
-function checkinfo(){
+/*function checkinfo(){
 
 
 	var login = document.getElementById("name").value;
 	var password = document.getElementById("password").value;
 	var ap = document.getElementById("ADMINPANEL");
-	var _0x1ecf=["\x61\x64\x6D\x69\x6E","\x31\x32\x33"];
 	if(login == _0x1ecf[0] && password == _0x1ecf[1]){
 		ap.style.display = "block";
 
 	}
 	
-}
+}*/
 function addpoint(){
 	var valin = document.getElementsByName("pointinput").value;
 	valin += 1;
