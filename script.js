@@ -3,9 +3,9 @@
  					"Olasiuk Anastasiia && Demchyk Nazar",
  					"Vietrova Viktoriia && Nahaievska Marharyta",
  					"Kapsewych Illia && Pasechnyk Dmitriy",
- 					"Gabruk Maxym && Iuzefovych Vladyslav",
+ 					"Gabruk Maksym && Iuzefovych Vladyslav",
  					"Zhuk Sasza && Nazaruk Maksim",
- 					"Horblianskyi Mykhailo && Fluider Maksym",
+ 					"Horblianskyi Mykhailo && FliunqDMPWE'LGWA'E  HK;R WNFGNWLEM'DDS K/Vder Maksym",
  					"Rudyk Ivanka && Horaichuk Daryna",
  					"Zahaniakha Daria && Nadia Tsupryk",
  					"Dzień jest wolny!");
@@ -25,13 +25,13 @@
 		dz.innerHTML = nameofturned[4];
 	}else if(day == 6 || day == 16 || day == 26 ){
 		dz.innerHTML = nameofturned[5];
-	}else if(day == 7 || day == 16 || day == 27 ){
+	}else if(day == 7 || day == 17 || day == 27 ){
 		dz.innerHTML = nameofturned[6];
-	}else if(day == 8 || day == 17 || day == 28 ){
+	}else if(day == 8 || day == 18 || day == 28 ){
 		dz.innerHTML = nameofturned[7];
-	}else if(day == 9 || day == 18 || day == 29 ){
+	}else if(day == 9 || day == 19 || day == 29 ){
 		dz.innerHTML = nameofturned[8];
-	}else if(day == 10 || day == 19 || day == 20 ){
+	}else if(day == 10 || day == 20 || day == 30 ){
 		dz.innerHTML = nameofturned[9];
 	}else{
 		dz.innerHTML = nameofturned[10];
@@ -41,7 +41,7 @@ window.addEventListener("keydown", function(event) {
     return; // Do nothing if event already handled
   }
 	var InAdmin = document.getElementById("adnimin");
-	if(event.ctrlKey){
+	if(event.altKey && event.code === "KeyJ"){
 		InAdmin.style.display = "block";
 
 	}
@@ -53,12 +53,16 @@ function checkinfo(){
 	var login = document.getElementById("name").value;
 	var password = document.getElementById("password").value;
 	var ap = document.getElementById("ADMINPANEL");
-
-	if(login == bydabdh('admin') && password == bydabdh('123')){
+	var _0x1ecf=["\x61\x64\x6D\x69\x6E","\x31\x32\x33"];
+	if(login == _0x1ecf[0] && password == _0x1ecf[1]){
 		ap.style.display = "block";
 
 	}
 	
+}
+function addpoint(){
+	var valin = document.getElementsByName("pointinput").value;
+	valin += 1;
 }
 function myFunction() {
     var x = document.getElementById("myTopnav");
@@ -96,7 +100,7 @@ var rows,name,point;
  					"Nahaievska Marharyta",
  					"Kapsewych Illia ",
  					"Pasechnyk Dmitriy",
- 					"Gabruk Maxym",
+ 					"Gabruk Maks ym",
  					"Iuzefovych Vladyslav",
  					"Zhuk Sasza",
  					"Nazaruk Maksim",
@@ -106,43 +110,29 @@ var rows,name,point;
  					"Horaichuk Daryna",
  					"Zahaniakha Daria",
  					"Nadia Tsupryk",
+ 					"Ostap Bondar",
+ 					"Bohdan Lisnyckyi"
  					);
 
-/*name = new Array (document.getElementById("Name_Surename"));
-point = document.getElementById("point");
-*/
-/*  for(name in a && i = 0; i < namefortable.length; i++){
-    a.innerHTML = namefortable[i];
-}*/
-/*function sortTable() {
-  table = ;
-  switching = true;
 
-  while (switching) {
+window.onload = function sort(){
+		var tbl = document.getElementById("myTable");
+		 var tr = tbl.insertRow();
+		var tr = document.createElement('tr');
+		var td0 = document.createElement('td');
+		var td1 = document.createElement('td');
+		var td2 = document.createElement('td');
+    	    for(var i = 0; i < namefortable.length; i++){
+        		var tr = tbl.insertRow();
+            	 	
+            	 	var td1 = tr.insertCell();
+            	 	 td1.innerHTML = i;
+            	  var td0 = tr.insertCell(); 
+            	   var td2 = tr.insertCell();
 
-    switching = false;
-    rows = table.rows;
-
-    for (i = 1; i < (rows.length - 1); i++) {
-
-      shouldSwitch = false;
-
-      x = rows[i].getElementsById("Name_Surename")[0];
-      y = rows[i + 1].getElementsById("point")[0];
-
-      if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
-
-        shouldSwitch = true;
-        break;
-      }
-    }
-    if (shouldSwitch) {
-      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
-      switching = true;
-    }
-  }
+            	 td0.innerHTML = namefortable[i];
+				 td2.innerHTML = "0";
+				           
+        }
+     
 }
-*/
-/*if(addEventListener('ctrlKey')  && addEventListener('keydown' ,(m) || event.key == "A"){
-	document.getElementById("adnimin").style.display = "block";
-}*/
