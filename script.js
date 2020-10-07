@@ -5,7 +5,7 @@
  					"Kapsewych Illia && Pasechnyk Dmitriy",
  					"Gabruk Maksym && Iuzefovych Vladyslav",
  					"Zhuk Sasza && Nazaruk Maksim",
- 					"Horblianskyi Mykhailo && FliunqDMPWE'LGWA'E  HK;R WNFGNWLEM'DDS K/Vder Maksym",
+ 					"Horblianskyi Mykhailo && Fliunder Maksym",
  					"Rudyk Ivanka && Horaichuk Daryna",
  					"Zahaniakha Daria && Nadia Tsupryk",
  					"Dzień jest wolny!");
@@ -81,11 +81,6 @@ window.onscroll = function() {
     document.getElementById("myTopnav").style.top = "-50px";
   }
   prevScrollpos = currentScrollPos;
-}
-window.onload = function scroll(){
-  document.body.scrollTop = 0; 
-  document.documentElement.scrollTop = 0; 
-
 }
 
 var rows,name,point;
