@@ -9,11 +9,10 @@
  					"Rudyk Ivanka && Horaichuk Daryna",
  					"Zahaniakha Daria && Nadia Tsupryk",
  					"Dzień jest wolny!");
-
 	var dz = document.getElementById("currentShift");
 	var today = new Date();
 	var day = today.getDate();
-	if(day == 1 || day == 11, day == 21 ){
+	if(day == 1 || day == 11 || day == 21 ){
 		dz.innerHTML = nameofturned[0];
 	}else if(day == 2 || day == 12 || day == 22 ){
 		dz.innerHTML = nameofturned[1];
@@ -38,7 +37,7 @@
 	}
 window.addEventListener("keydown", function(event) {
 	  if (event.defaultPrevented) {
-    return; // Do nothing if event already handled
+    return; 
   }
 	var InAdmin = document.getElementById("adnimin");
 	if(event.altKey && event.code === "KeyJ"){
@@ -59,10 +58,10 @@ window.addEventListener("keydown", function(event) {
 	}
 	
 }*/
-function addpoint(){
+/*function addpoint(){
 	var valin = document.getElementsByName("pointinput").value;
 	valin += 1;
-}
+}*/
 function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
@@ -82,51 +81,143 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
 }
 
-var rows,name,point;
- var namefortable = new Array(
- 					"Mikhailov Dmytro",
-  					"Krasun Vadym",
-	 				"Oleksandr Serhieiev",
-	 				"Artem Kozak",
- 					"Olasiuk Anastasiia",
- 					"Demchyk Nazar",
- 					"Vietrova Viktoriia ",
- 					"Nahaievska Marharyta",
- 					"Kapsewych Illia ",
- 					"Pasechnyk Dmitriy",
- 					"Gabruk Maks ym",
- 					"Iuzefovych Vladyslav",
- 					"Zhuk Sasza",
- 					"Nazaruk Maksim",
- 					"Horblianskyi Mykhailo",
- 					"Fluider Maksym",
- 					"Rudyk Ivanka",
- 					"Horaichuk Daryna",
- 					"Zahaniakha Daria",
- 					"Nadia Tsupryk",
- 					"Ostap Bondar",
- 					"Bohdan Lisnyckyi"
- 					);
 
 
-window.onload = function sort(){
+ var namefortable = [
+ 	
+ 	{
+		"name":"Mikhailov Dmytro",
+		"points":"0"
+	},
+	{
+		"name":"Krasun Vadym",
+		"points":"0"
+	},
+	{
+		"name":"Oleksandr Serhieiev",
+		"points":"0"
+	},
+	{
+		"name":"Artem Kozak",
+		"points":"0"
+	},
+		{
+		"name":"Olasiuk Anastasiia",
+		"points":"0"
+	},
+		{
+		"name":"Demchyk Nazar",
+		"points":"0"
+	},
+		{
+		"name":"Vietrova Viktoriia",
+		"points":"0"
+	},
+		{
+		"name":"Nahaievska Marharyta",
+		"points":"0"
+	},
+		{
+		"name":"Kapsewych Illia",
+		"points":"0"
+	},
+		{
+		"name":"Pasechnyk Dmitriy",
+		"points":"0"
+	},
+		{
+		"name":"Gabruk Maksym",
+		"points":"0"
+	},
+		{
+		"name":"Iuzefovych Vladyslav",
+		"points":"0"
+	},
+		{
+		"name":"Zhuk Sasza",
+		"points":"0"
+	},
+		{
+		"name":"Nazaruk Maksim",
+		"points":"0"
+	},
+
+		{
+		"name":"Horblianskyi Mykhailo",
+		"points":"0"
+	},
+		{
+		"name":"Fliunder Maksym",
+		"points":"0"
+	},
+		{
+		"name":"Rudyk Ivanka",
+		"points":"0"
+	},
+		{
+		"name":"Horaichuk Daryna",
+		"points":"0"
+	},
+		{
+		"name":"Zahaniakha Daria",
+		"points":"0"
+	},
+		{
+		"name":"Nadia Tsupryk",
+		"points":"0"
+	},
+			{
+		"name":"Ostap Bondar",
+		"points":"0"
+	},
+			{
+		"name":"Bohdan Lisovski",
+		"points":"0"
+	}
+
+	];
+
+function sorting(){
+	namefortable.sort((a, b) => b.points.localeCompare(a.points,{numeric: true}));
+
+}
+
+window.onload = function create(){
+	sorting();
 		var tbl = document.getElementById("myTable");
 		 var tr = tbl.insertRow();
 		var tr = document.createElement('tr');
 		var td0 = document.createElement('td');
 		var td1 = document.createElement('td');
 		var td2 = document.createElement('td');
-    	    for(var i = 0; i < namefortable.length; i++){
+		var place = 0;
+
+ 	 for(var i = 0; i < namefortable.length; i++){
+    	    	place++;
         		var tr = tbl.insertRow();
             	 	
             	 	var td1 = tr.insertCell();
-            	 	 td1.innerHTML = i;
+            	 	 
             	  var td0 = tr.insertCell(); 
             	   var td2 = tr.insertCell();
+            	   td1.innerHTML = place;
+            	 td0.innerHTML = namefortable[i].name;
+				 td2.innerHTML = namefortable[i].points;
 
-            	 td0.innerHTML = namefortable[i];
-				 td2.innerHTML = "0";
-				           
+				         
         }
-     
-}
+  }
+    var a_go_oNas = document.getElementById('go_oNas');
+    var a_go_tbl = document.getElementById('go_tbl');
+ 
+
+    
+
+/*   a_go_oNas.onclick = function() {
+ document.location.href = '#footer';
+
+            }*/
+a_go_tbl.onclick = function() {
+
+    document.location.href = '#currentShift';
+            }
