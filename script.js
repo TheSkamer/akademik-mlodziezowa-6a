@@ -139,16 +139,16 @@ window.onscroll = function() {
 	},
 		{
 		"name":"Nazaruk Maksim",
-		"points":"45"
+		"points":"0"
 	},
 
 		{
 		"name":"Horblianskyi Mykhailo",
-		"points":"1"
+		"points":"0"
 	},
 		{
 		"name":"Fliunder Maksym",
-		"points":"7"
+		"points":"0"
 	},
 		{
 		"name":"Rudyk Ivanka",
