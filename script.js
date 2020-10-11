@@ -170,11 +170,11 @@ window.onscroll = function() {
 	},
 			{
 		"name":"Ostap Bondar",
-		"points":"9"
+		"points":"0"
 	},
 			{
 		"name":"Bohdan Lisovski",
-		"points":"11"
+		"points":"0"
 	}
 
 	];
