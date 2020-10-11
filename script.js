@@ -146,7 +146,7 @@ window.onscroll = function() {
 
 		{
 		"name":"Horblianskyi Mykhailo",
-		"points":"0"
+		"points":"-1"
 	},
 		{
 		"name":"Fliunder Maksym",
