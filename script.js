@@ -75,8 +75,10 @@ window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("myTopnav").style.top = "0";
+    document.getElementById("myTopnav").style.display = "block";
   } else {
     document.getElementById("myTopnav").style.top = "-50px";
+
   }
   prevScrollpos = currentScrollPos;
 }
@@ -168,17 +170,17 @@ window.onscroll = function() {
 	},
 			{
 		"name":"Ostap Bondar",
-		"points":"0"
+		"points":"9"
 	},
 			{
 		"name":"Bohdan Lisovski",
-		"points":"0"
+		"points":"11"
 	}
 
 	];
 
 function sorting(){
-	namefortable.sort((a, b) => b.points.localeCompare(a.points,undefined,{numeric: true}));
+	namefortable.sort((a, b) => b.points.localeCompare(a.points, undefined,{numeric: true}));
 
 }
 
@@ -213,11 +215,11 @@ window.onload = function create(){
 
     
 
-/*   a_go_oNas.onclick = function() {
+   a_go_oNas.onclick = function fdf() {
  document.location.href = '#footer';
 
-            }*/
-a_go_tbl.onclick = function() {
-
+            }
+a_go_tbl.onclick = function doitd() {
     document.location.href = '#currentShift';
+    myFunction();
             }
