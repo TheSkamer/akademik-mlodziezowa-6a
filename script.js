@@ -139,16 +139,16 @@ window.onscroll = function() {
 	},
 		{
 		"name":"Nazaruk Maksim",
-		"points":"0"
+		"points":"45"
 	},
 
 		{
 		"name":"Horblianskyi Mykhailo",
-		"points":"0"
+		"points":"1"
 	},
 		{
 		"name":"Fliunder Maksym",
-		"points":"0"
+		"points":"7"
 	},
 		{
 		"name":"Rudyk Ivanka",
@@ -178,7 +178,7 @@ window.onscroll = function() {
 	];
 
 function sorting(){
-	namefortable.sort((a, b) => b.points.localeCompare(a.points,{numeric: true}));
+	namefortable.sort((a, b) => b.points.localeCompare(a.points,undefined,{numeric: true}));
 
 }
 
