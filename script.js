@@ -133,7 +133,7 @@ window.onscroll = function() {
 	},
 		{
 		"name":"Iuzefovych Vladyslav",
-		"points":"-1"
+		"points":"0"
 	},
 		{
 		"name":"Zhuk Sasza",
