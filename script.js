@@ -105,11 +105,11 @@ window.onscroll = function() {
 	},
 		{
 		"name":"Olasiuk Anastasiia",
-		"points":"5"
+		"points":"5.5"
 	},
 		{
 		"name":"Demchyk Nazar",
-		"points":"5"
+		"points":"5.5"
 	},
 		{
 		"name":"Vietrova Viktoriia",
