@@ -93,11 +93,11 @@ window.onscroll = function() {
 	},
 	{
 		"name":"Krasun Vadym",
-		"points":"3"
+		"points":"3.5"
 	},
 	{
 		"name":"Oleksandr Serhieiev",
-		"points":"0"
+		"points":"0.5"
 	},
 	{
 		"name":"Artem Kozak",
