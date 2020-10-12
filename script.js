@@ -97,11 +97,11 @@ window.onscroll = function() {
 	},
 	{
 		"name":"Oleksandr Serhieiev",
-		"points":"0.5"
+		"points":"3.5"
 	},
 	{
 		"name":"Artem Kozak",
-		"points":"0"
+		"points":"3"
 	},
 		{
 		"name":"Olasiuk Anastasiia",
