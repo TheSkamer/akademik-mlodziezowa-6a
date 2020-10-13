@@ -1,13 +1,13 @@
  var nameofturned = new Array("Mikhailov Dmytro && Krasun Vadym",
 	 				"Oleksandr Serhieiev && Artem Kozak",
- 					"Olasiuk Anastasiia && Demchyk Nazar",
+ 					"Olasiuk Anastasiia && Demchyk Nazar && Bohdan Lisovski",
  					"Vietrova Viktoriia && Nahaievska Marharyta",
  					"Kapsewych Illia && Pasechnyk Dmitriy",
  					"Gabruk Maksym && Iuzefovych Vladyslav",
  					"Zhuk Sasza && Nazaruk Maksim",
- 					"Horblianskyi Mykhailo && Fliunder Maksym",
+ 					"Horblianskyi Mykhailo && Fliunder Maksym && Ostap Bondar",
  					"Rudyk Ivanka && Horaichuk Daryna",
- 					"Zahaniakha Daria && Nadia Tsupryk",
+ 					"Zahaniakha Daria && Nadia Tsupryk && Maria Faria",
  					"Dzień jest wolny!");
 	var dz = document.getElementById("currentShift");
 	var today = new Date();
@@ -174,6 +174,10 @@ window.onscroll = function() {
 	},
 			{
 		"name":"Bohdan Lisovski",
+		"points":"0"
+	},
+			{
+		"name":"Maria Faria",
 		"points":"0"
 	}
 
