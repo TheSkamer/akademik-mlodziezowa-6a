@@ -105,11 +105,11 @@ window.onscroll = function() {
 	},
 		{
 		"name":"Olasiuk Anastasiia",
-		"points":"5.5"
+		"points":"8.5"
 	},
 		{
 		"name":"Demchyk Nazar",
-		"points":"5.5"
+		"points":"8.5"
 	},
 		{
 		"name":"Vietrova Viktoriia",
@@ -174,7 +174,7 @@ window.onscroll = function() {
 	},
 			{
 		"name":"Bohdan Lisovski",
-		"points":"0"
+		"points":"3.5"
 	},
 			{
 		"name":"Maria Faria",
