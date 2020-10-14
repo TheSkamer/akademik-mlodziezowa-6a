@@ -113,7 +113,7 @@ window.onscroll = function() {
 	},
 		{
 		"name":"Vietrova Viktoriia",
-		"points":"0"
+		"points":"1.5"
 	},
 		{
 		"name":"Nahaievska Marharyta",
@@ -154,7 +154,7 @@ window.onscroll = function() {
 	},
 		{
 		"name":"Rudyk Ivanka",
-		"points":"0"
+		"points":"0.5"
 	},
 		{
 		"name":"Horaichuk Daryna",
