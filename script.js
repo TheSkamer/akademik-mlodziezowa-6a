@@ -121,11 +121,11 @@ window.onscroll = function() {
 	},
 		{
 		"name":"Kapsewych Illia",
-		"points":"0"
+		"points":"3"
 	},
 		{
 		"name":"Pasechnyk Dmitriy",
-		"points":"0"
+		"points":"5"
 	},
 		{
 		"name":"Gabruk Maksym",
@@ -174,7 +174,7 @@ window.onscroll = function() {
 	},
 			{
 		"name":"Bohdan Lisovski",
-		"points":"3.5"
+		"points":"5"
 	},
 			{
 		"name":"Maria Faria",
