@@ -7,7 +7,7 @@
  					"Zhuk Sasza && Nazaruk Maksim",
  					"Horblianskyi Mykhailo && Fliunder Maksym && Ostap Bondar",
  					"Rudyk Ivanka && Horaichuk Daryna",
- 					"Zahaniakha Daria && Nadia Tsupryk && Maria Faria",
+ 					"Zahaniakha Daria && Nadia Tsupryk && Maria Farion",
  					"Dzień jest wolny!");
 	var dz = document.getElementById("currentShift");
 	var today = new Date();
@@ -177,7 +177,7 @@ window.onscroll = function() {
 		"points":"5"
 	},
 			{
-		"name":"Maria Faria",
+		"name":"Maria Farion",
 		"points":"0"
 	}
 
