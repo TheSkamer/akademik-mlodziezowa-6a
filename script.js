@@ -129,11 +129,11 @@ window.onscroll = function() {
 	},
 		{
 		"name":"Gabruk Maksym",
-		"points":"0"
+		"points":"4"
 	},
 		{
 		"name":"Iuzefovych Vladyslav",
-		"points":"0"
+		"points":"4"
 	},
 		{
 		"name":"Zhuk Sasza",
