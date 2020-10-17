@@ -141,7 +141,7 @@ window.onscroll = function() {
 	},
 		{
 		"name":"Nazaruk Maksim",
-		"points":"0"
+		"points":"3"
 	},
 
 		{
