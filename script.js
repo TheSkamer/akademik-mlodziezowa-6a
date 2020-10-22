@@ -146,11 +146,11 @@ window.onscroll = function() {
 
 		{
 		"name":"Horblianskyi Mykhailo",
-		"points":"0"
+		"points":"4"
 	},
 		{
 		"name":"Fliunder Maksym",
-		"points":"0"
+		"points":"3"
 	},
 		{
 		"name":"Rudyk Ivanka",
@@ -158,19 +158,19 @@ window.onscroll = function() {
 	},
 		{
 		"name":"Horaichuk Daryna",
-		"points":"0"
+		"points":"4"
 	},
 		{
 		"name":"Zahaniakha Daria",
-		"points":"0"
+		"points":"3"
 	},
 		{
 		"name":"Nadia Tsupryk",
-		"points":"0"
+		"points":"3"
 	},
 			{
 		"name":"Ostap Bondar",
-		"points":"0"
+		"points":"3"
 	},
 			{
 		"name":"Bohdan Lisovski",
@@ -178,7 +178,7 @@ window.onscroll = function() {
 	},
 			{
 		"name":"Maria Farion",
-		"points":"0"
+		"points":"3"
 	}
 
 	];
