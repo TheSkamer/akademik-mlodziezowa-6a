@@ -117,8 +117,101 @@ window.onscroll = function() {
 
 
  var namefortable = [
- 	
- 	{
+ 	 	 	{
+		"name":"Mikhailov Dmytro",
+		"points":"0"
+	},
+	{
+		"name":"Krasun Vadym",
+		"points":"0"
+	},
+	{
+		"name":"Oleksandr Serhieiev",
+		"points":"0"
+	},
+	{
+		"name":"Artem Kozak",
+		"points":"0"
+	},
+		{
+		"name":"Olasiuk Anastasiia",
+		"points":"0"
+	},
+		{
+		"name":"Demchyk Nazar",
+		"points":"0"
+	},
+		{
+		"name":"Vietrova Viktoriia",
+		"points":"0"
+	},
+		{
+		"name":"Nahaievska Marharyta",
+		"points":"0"
+	},
+		{
+		"name":"Kapsewych Illia",
+		"points":"0"
+	},
+		{
+		"name":"Pasechnyk Dmitriy",
+		"points":"0"
+	},
+		{
+		"name":"Gabruk Maksym",
+		"points":"0"
+	},
+		{
+		"name":"Iuzefovych Vladyslav",
+		"points":"0"
+	},
+		{
+		"name":"Zhuk Sasza",
+		"points":"0"
+	},
+		{
+		"name":"Nazaruk Maksim",
+		"points":"0"
+	},
+
+		{
+		"name":"Horblianskyi Mykhailo",
+		"points":"0"
+	},
+		{
+		"name":"Fliunder Maksym",
+		"points":"0"
+	},
+		{
+		"name":"Rudyk Ivanka",
+		"points":"0"
+	},
+		{
+		"name":"Horaichuk Daryna",
+		"points":"0"
+	},
+		{
+		"name":"Zahaniakha Daria",
+		"points":"0"
+	},
+		{
+		"name":"Nadia Tsupryk",
+		"points":"0"
+	},
+			{
+		"name":"Ostap Bondar",
+		"points":"0"
+	},
+			{
+		"name":"Bohdan Lisovski",
+		"points":"0"
+	},
+			{
+		"name":"Maria Farion",
+		"points":"0"
+	}
+		//PAŹDZIERNIK
+ 	/*{
 		"name":"Mikhailov Dmytro",
 		"points":"6"
 	},
@@ -211,6 +304,7 @@ window.onscroll = function() {
 		"name":"Maria Farion",
 		"points":"8"
 	}
+*/
 
 	];
 
