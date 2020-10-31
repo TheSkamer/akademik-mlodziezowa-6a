@@ -20,7 +20,7 @@
 	var dz = document.getElementById("currentShift");
 	var today = new Date();
 	var day = today.getDate();
-		if(day == 1 || day == 11 || day == 21 ){
+				if(day == 1 || day == 11 || day == 21 ){
 		dz.innerHTML = nameofturned[0];
 	}else if(day == 2 || day == 12 || day == 22 ){
 		dz.innerHTML = nameofturned[1];
@@ -35,13 +35,13 @@
 	}else if(day == 7 || day == 17 || day == 27 ){
 		dz.innerHTML = nameofturned[1];
 	}else if(day == 8 || day == 18 || day == 28 ){
-		dz.innerHTML = nameofturned[3];
+		dz.innerHTML = nameofturned[2];
 	}else if(day == 9 || day == 19 || day == 29 ){
-		dz.innerHTML = nameofturned[4];
+		dz.innerHTML = nameofturned[3];
 	}else if(day == 10 || day == 20 | day == 30 ){
-		dz.innerHTML = nameofturned[5];
+		dz.innerHTML = nameofturned[4];
 	}else{
-		dz.innerHTML = nameofturned[6];
+		dz.innerHTML = nameofturned[5];
 	}
 /*	if(day == 1 || day == 11 || day == 21 ){
 		dz.innerHTML = nameofturned[0];
