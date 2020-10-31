@@ -1,18 +1,48 @@
- var nameofturned = new Array("Mikhailov Dmytro && Krasun Vadym",
+ var nameofturned = new Array(
+ 					"Olasiuk Anastasiia && Demchyk Nazar",
+ 					"Vietrova Viktoriia && Nahaievska Marharyta",
+ 					"Pasechnyk Dmitriy && Maria Farion",
+ 					"Horblianskyi Mykhailo && Horaichuk Daryna",
+ 					"Ostap Bondar && Bohdan Lisovski",
+ 					"Dzień jest wolny!");
+/*  var nameofturned = new Array("Mikhailov Dmytro && Krasun Vadym",
 	 				"Oleksandr Serhieiev && Artem Kozak",
- 					"Olasiuk Anastasiia && Demchyk Nazar && Bohdan Lisovski",
+ 					"Olasiuk Anastasiia && Demchyk Nazar",
  					"Vietrova Viktoriia && Nahaievska Marharyta",
  					"Kapsewych Illia && Pasechnyk Dmitriy",
  					"Gabruk Maksym && Iuzefovych Vladyslav",
  					"Zhuk Sasza && Nazaruk Maksim",
- 					"Horblianskyi Mykhailo && Fliunder Maksym && Ostap Bondar",
+ 					"Horblianskyi Mykhailo && Fliunder Maksym",
  					"Rudyk Ivanka && Horaichuk Daryna",
- 					"Zahaniakha Daria && Nadia Tsupryk && Maria Farion",
- 					"Dzień jest wolny!");
+ 					"Zahaniakha Daria && Nadia Tsupryk",
+ 					"Dzień jest wolny!");*/
 	var dz = document.getElementById("currentShift");
 	var today = new Date();
 	var day = today.getDate();
-	if(day == 1 || day == 11 || day == 21 ){
+		if(day == 1 || day == 11 || day == 21 ){
+		dz.innerHTML = nameofturned[0];
+	}else if(day == 2 || day == 12 || day == 22 ){
+		dz.innerHTML = nameofturned[1];
+	}else if(day == 3 || day == 13 || day == 23 ){
+		dz.innerHTML = nameofturned[2];
+	}else if(day == 4 || day == 14 || day == 24 ){
+		dz.innerHTML = nameofturned[3];
+	}else if(day == 5 || day == 15 || day == 25 ){
+		dz.innerHTML = nameofturned[4];
+	}else if(day == 6 || day == 16 || day == 26 ){
+		dz.innerHTML = nameofturned[0];
+	}else if(day == 7 || day == 17 || day == 27 ){
+		dz.innerHTML = nameofturned[1];
+	}else if(day == 8 || day == 18 || day == 28 ){
+		dz.innerHTML = nameofturned[3];
+	}else if(day == 9 || day == 19 || day == 29 ){
+		dz.innerHTML = nameofturned[4];
+	}else if(day == 10 || day == 20 | day == 30 ){
+		dz.innerHTML = nameofturned[5];
+	}else{
+		dz.innerHTML = nameofturned[6];
+	}
+/*	if(day == 1 || day == 11 || day == 21 ){
 		dz.innerHTML = nameofturned[0];
 	}else if(day == 2 || day == 12 || day == 22 ){
 		dz.innerHTML = nameofturned[1];
@@ -30,11 +60,11 @@
 		dz.innerHTML = nameofturned[7];
 	}else if(day == 9 || day == 19 || day == 29 ){
 		dz.innerHTML = nameofturned[8];
-	}else if(day == 10 || day == 20 || day == 30 ){
+	}else if(day == 10 || day == 20 | day == 30 ){
 		dz.innerHTML = nameofturned[9];
 	}else{
 		dz.innerHTML = nameofturned[10];
-	}
+	}*/
 window.addEventListener("keydown", function(event) {
 	  if (event.defaultPrevented) {
     return; 
@@ -97,7 +127,7 @@ window.onscroll = function() {
 	},
 	{
 		"name":"Oleksandr Serhieiev",
-		"points":"3.5"
+		"points":"6.5"
 	},
 	{
 		"name":"Artem Kozak",
@@ -113,7 +143,7 @@ window.onscroll = function() {
 	},
 		{
 		"name":"Vietrova Viktoriia",
-		"points":"1.5"
+		"points":"2.5"
 	},
 		{
 		"name":"Nahaievska Marharyta",
@@ -125,23 +155,23 @@ window.onscroll = function() {
 	},
 		{
 		"name":"Pasechnyk Dmitriy",
-		"points":"5"
+		"points":"8"
 	},
 		{
 		"name":"Gabruk Maksym",
-		"points":"4"
+		"points":"7"
 	},
 		{
 		"name":"Iuzefovych Vladyslav",
-		"points":"4"
+		"points":"7"
 	},
 		{
 		"name":"Zhuk Sasza",
-		"points":"0"
+		"points":"3"
 	},
 		{
 		"name":"Nazaruk Maksim",
-		"points":"3"
+		"points":"6"
 	},
 
 		{
@@ -158,15 +188,15 @@ window.onscroll = function() {
 	},
 		{
 		"name":"Horaichuk Daryna",
-		"points":"4"
+		"points":"8"
 	},
 		{
 		"name":"Zahaniakha Daria",
-		"points":"3"
+		"points":"6"
 	},
 		{
 		"name":"Nadia Tsupryk",
-		"points":"3"
+		"points":"6"
 	},
 			{
 		"name":"Ostap Bondar",
@@ -174,11 +204,11 @@ window.onscroll = function() {
 	},
 			{
 		"name":"Bohdan Lisovski",
-		"points":"8"
+		"points":"9"
 	},
 			{
 		"name":"Maria Farion",
-		"points":"3"
+		"points":"8"
 	}
 
 	];
