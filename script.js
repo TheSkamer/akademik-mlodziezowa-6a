@@ -1,10 +1,11 @@
  var nameofturned = new Array(
- 					"Olasiuk Anastasiia && Demchyk Nazar",
  					"Vietrova Viktoriia && Nahaievska Marharyta",
+ 					"Olasiuk Anastasiia && Demchyk Nazar",
  					"Pasechnyk Dmitriy && Maria Farion",
  					"Horblianskyi Mykhailo && Horaichuk Daryna",
  					"Ostap Bondar && Bohdan Lisovski",
- 					"Dzień jest wolny!");
+ 					"Dzień jest wolny!"
+ );
 /*  var nameofturned = new Array("Mikhailov Dmytro && Krasun Vadym",
 	 				"Oleksandr Serhieiev && Artem Kozak",
  					"Olasiuk Anastasiia && Demchyk Nazar",
