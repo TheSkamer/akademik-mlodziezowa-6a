@@ -1,8 +1,8 @@
  var nameofturned = new Array(
- 					"Vietrova Viktoriia && Nahaievska Marharyta",
+ 					"Horblianskyi Mykhailo && Horaichuk Daryna",
  					"Olasiuk Anastasiia && Demchyk Nazar",
  					"Pasechnyk Dmitriy && Maria Farion",
- 					"Horblianskyi Mykhailo && Horaichuk Daryna",
+ 					"Vietrova Viktoriia && Nahaievska Marharyta",
  					"Ostap Bondar && Bohdan Lisovski",
  					"Dzień jest wolny!"
  );
