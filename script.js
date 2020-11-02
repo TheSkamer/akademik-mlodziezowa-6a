@@ -176,7 +176,7 @@ window.onscroll = function() {
 
 		{
 		"name":"Horblianskyi Mykhailo",
-		"points":"0"
+		"points":"3"
 	},
 		{
 		"name":"Fliunder Maksym",
@@ -188,7 +188,7 @@ window.onscroll = function() {
 	},
 		{
 		"name":"Horaichuk Daryna",
-		"points":"0"
+		"points":"3"
 	},
 		{
 		"name":"Zahaniakha Daria",
