@@ -20,7 +20,7 @@
  					"Rudyk Ivanka && Horaichuk Daryna",
  					"Zahaniakha Daria && Nadia Tsupryk",
  					"Dzień jest wolny!");*/
-	var dz = document.getElementById("currentShift
+	let dz = document.getElementById("currentShift");
 	today = new Date;
    	var day = today.getDate();
 	if(day == 1 || day == 11 || day == 21 ){
