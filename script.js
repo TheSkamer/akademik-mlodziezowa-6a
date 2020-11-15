@@ -20,14 +20,10 @@
  					"Rudyk Ivanka && Horaichuk Daryna",
  					"Zahaniakha Daria && Nadia Tsupryk",
  					"Dzień jest wolny!");*/
-	var dz = document.getElementById("currentShift");	
-	let i = 0 ;
-let bubu = setInterval( function() {
-  let x = nameofturned[i++] || clearInterval( bubu );
-  dz.innerHTML = x;
-if(i == 9)
-i = 0;}, 10000);
-/*	if(day == 1 || day == 11 || day == 21 ){
+	var dz = document.getElementById("currentShift
+	today = new Date;
+   	var day = today.getDate();
+	if(day == 1 || day == 11 || day == 21 ){
 		dz.innerHTML = nameofturned[0];
 	}else if(day == 2 || day == 12 || day == 22 ){
 		dz.innerHTML = nameofturned[1];
@@ -46,10 +42,8 @@ i = 0;}, 10000);
 	}else if(day == 9 || day == 19 || day == 29 ){
 		dz.innerHTML = nameofturned[8];
 	}else if(day == 10 || day == 20 | day == 30 ){
-		dz.innerHTML = nameofturned[9];
-	}else{
-		dz.innerHTML = nameofturned[10];
-	}*/
+		dz.innerHTML = nameofturned[Math.floor((Math.random() * 8))];
+	}
 window.addEventListener("keydown", function(event) {
 	  if (event.defaultPrevented) {
     return; 
