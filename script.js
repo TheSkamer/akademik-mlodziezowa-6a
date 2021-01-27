@@ -154,7 +154,7 @@ window.onscroll = function() {
 
 		{
 		"name":"Horblianskyi Mykhailo",
-		"points":"3"
+		"points":"0"
 	},
 		{
 		"name":"Fliunder Maksym",
@@ -186,7 +186,7 @@ window.onscroll = function() {
 	},
 			{
 		"name":"Maria Farion",
-		"points":"3"
+		"points":"0"
 	}
 		//PAŹDZIERNIK
  	/*{
