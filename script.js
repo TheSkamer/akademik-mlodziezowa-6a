@@ -113,19 +113,19 @@ window.onscroll = function() {
 	},
 		{
 		"name":"Olasiuk Anastasiia",
-		"points":"0"
+		"points":"3"
 	},
 		{
 		"name":"Demchyk Nazar",
-		"points":"0"
+		"points":"3"
 	},
 		{
 		"name":"Vietrova Viktoriia",
-		"points":"0"
+		"points":"3"
 	},
 		{
 		"name":"Nahaievska Marharyta",
-		"points":"0"
+		"points":"3"
 	},
 		{
 		"name":"Kapsewych Illia",
@@ -137,7 +137,7 @@ window.onscroll = function() {
 	},
 		{
 		"name":"Gabruk Maksym",
-		"points":"0"
+		"points":"3"
 	},
 		{
 		"name":"Iuzefovych Vladyslav",
@@ -154,11 +154,11 @@ window.onscroll = function() {
 
 		{
 		"name":"Horblianskyi Mykhailo",
-		"points":"0"
+		"points":"3"
 	},
 		{
 		"name":"Fliunder Maksym",
-		"points":"0"
+		"points":"1000000000000000000"
 	},
 		{
 		"name":"Rudyk Ivanka",
@@ -166,7 +166,7 @@ window.onscroll = function() {
 	},
 		{
 		"name":"Horaichuk Daryna",
-		"points":"0"
+		"points":"3"
 	},
 		{
 		"name":"Zahaniakha Daria",
@@ -178,15 +178,19 @@ window.onscroll = function() {
 	},
 			{
 		"name":"Ostap Bondar",
-		"points":"0"
+		"points":"31000000000000000000"
 	},
 			{
 		"name":"Bohdan Lisovski",
 		"points":"0"
 	},
+	 {
+		"name":"Oleg Hlushko",
+		"points":"3"
+	},
 			{
 		"name":"Maria Farion",
-		"points":"0"
+		"points":"3"
 	}
 		//PAŹDZIERNIK
  	/*{
