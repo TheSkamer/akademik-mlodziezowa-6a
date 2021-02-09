@@ -158,11 +158,11 @@ window.onscroll = function() {
 	},
 		{
 		"name":"Fliunder Maksym",
-		"points":"1000000000000000000"
+		"points":"6"
 	},
 		{
 		"name":"Rudyk Ivanka",
-		"points":"0"
+		"points":"3"
 	},
 		{
 		"name":"Horaichuk Daryna",
@@ -178,7 +178,7 @@ window.onscroll = function() {
 	},
 			{
 		"name":"Ostap Bondar",
-		"points":"31000000000000000000"
+		"points":"3"
 	},
 			{
 		"name":"Bohdan Lisovski",
