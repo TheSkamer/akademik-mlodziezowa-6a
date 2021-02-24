@@ -97,11 +97,11 @@ window.onscroll = function() {
  var namefortable = [
  	 	 	{
 		"name":"Mikhailov Dmytro",
-		"points":"0"
+		"points":"4"
 	},
 	{
 		"name":"Krasun Vadym",
-		"points":"0"
+		"points":"4"
 	},
 	{
 		"name":"Oleksandr Serhieiev",
@@ -113,7 +113,7 @@ window.onscroll = function() {
 	},
 		{
 		"name":"Olasiuk Anastasiia",
-		"points":"3"
+		"points":"9"
 	},
 		{
 		"name":"Demchyk Nazar",
@@ -121,11 +121,11 @@ window.onscroll = function() {
 	},
 		{
 		"name":"Vietrova Viktoriia",
-		"points":"3"
+		"points":"9"
 	},
 		{
 		"name":"Nahaievska Marharyta",
-		"points":"3"
+		"points":"9"
 	},
 		{
 		"name":"Kapsewych Illia",
@@ -137,7 +137,7 @@ window.onscroll = function() {
 	},
 		{
 		"name":"Gabruk Maksym",
-		"points":"3"
+		"points":"9"
 	},
 		{
 		"name":"Iuzefovych Vladyslav",
@@ -154,19 +154,19 @@ window.onscroll = function() {
 
 		{
 		"name":"Horblianskyi Mykhailo",
-		"points":"3"
+		"points":"11"
 	},
 		{
 		"name":"Fliunder Maksym",
-		"points":"6"
+		"points":"12.5"
 	},
 		{
 		"name":"Rudyk Ivanka",
-		"points":"3"
+		"points":"6"
 	},
 		{
 		"name":"Horaichuk Daryna",
-		"points":"3"
+		"points":"9"
 	},
 		{
 		"name":"Zahaniakha Daria",
@@ -178,7 +178,7 @@ window.onscroll = function() {
 	},
 			{
 		"name":"Ostap Bondar",
-		"points":"3"
+		"points":"9"
 	},
 			{
 		"name":"Bohdan Lisovski",
@@ -186,11 +186,11 @@ window.onscroll = function() {
 	},
 	 {
 		"name":"Oleg Hlushko",
-		"points":"3"
+		"points":"9"
 	},
 			{
 		"name":"Maria Farion",
-		"points":"3"
+		"points":"13"
 	}
 		//PAŹDZIERNIK
  	/*{
